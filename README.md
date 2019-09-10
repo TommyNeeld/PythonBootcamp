@@ -23,3 +23,12 @@ Next install either ***MiniConda or Anaconda*** (if required):
 2. Open the `anaconda prompt (anaconda3)` by pressing the Windows button and searching `anaconda prompt` and run the command: `conda install -c conda-forge wordcloud -y` from the anaconda prompt to install all modules required during this bootcamp. If you get the error 'CondaHTTPError: HTTP 000 CONNECTION FAILED ...' then you may need to use a network without a firewall or set a proxy.
 5. Open the `anaconda navigator (anaconda3)` by pressing the Windows button and searching `anaconda navigator`. Launch a jupyter notebook session. This should load a UI in your default browser. On the left panel navigate to the `PythonBootcamp` directory and open the file `Bootcamp.ipynb`. You could also open the `anaconda prompt (anaconda3)`, navigate to the `PythonBootcamp` directory and type `jupyter notebook` in the command prompt.
 
+## Bootcamp aims:
+We are going to be using an open Airbnb dataset on NewYork listings to learn how to:  
+- Load and manipulate data in Pandas
+- Visulise and analyse data using Matplotlib and Seaborn
+- Create interactive plots using Plotly
+- Mock-up a Dashboard web application using Dash
+
+## Data source - Airbnb
+The data source we are going to use is currently the 'hottest' in [Kaggle](https://www.kaggle.com/datasets). It is the New York City Airbnb Open Data for 2019 and it is avaliable [here](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data). 
