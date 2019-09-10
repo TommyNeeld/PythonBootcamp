@@ -12,7 +12,7 @@ Next install either ***MiniConda or Anaconda*** (if required):
 1. If you haven’t already got MiniConda please install MiniConda it for Python 3.7 from https://docs.conda.io/en/latest/miniconda.html (keep all default options)
 2. Once installed, open `anaconda prompt (miniconda3)` by pressing the Windows button and searching ` anaconda prompt`.
 3. Navigate to the `PythonBootcamp` directory using `cd` commands
-4. Once in the Python directory run the command `conda install -c conda-forge --file requirements.txt -y` from the anaconda prompt to install all modules required during this bootcamp - this may take some time. If you get the error 'CondaHTTPError: HTTP 000 CONNECTION FAILED ...' then you may need to use a network without a firewall or set a proxy.
+4. Once in the Python directory run the command `conda install -c conda-forge -c plotly --file requirements.txt -y` from the anaconda prompt to install all modules required during this bootcamp - this may take some time. If you get the error 'CondaHTTPError: HTTP 000 CONNECTION FAILED ...' then you may need to use a network without a firewall or set a proxy.
 5. Run the command `jupyter notebook`. This should open a new browser running [jupyer notebook](https://jupyter.org/). 
 
 **Anaconda:**
@@ -20,7 +20,7 @@ Next install either ***MiniConda or Anaconda*** (if required):
 *If you already have Anaconda installed, skip to step 2.*
 
 1. Install Anaconda for Windows and Python 3.7 from https://www.anaconda.com/distribution/#windows (install the 'Graphical Installer' to avoid compilcations opening .pkg files). Follow the installation instructions and keep everything as-per the default.
-2. Open the `anaconda prompt (anaconda3)` by pressing the Windows button and searching `anaconda prompt` and run the command: `conda install -c conda-forge wordcloud -y` from the anaconda prompt to install all modules required during this bootcamp. If you get the error 'CondaHTTPError: HTTP 000 CONNECTION FAILED ...' then you may need to use a network without a firewall or set a proxy.
+2. Open the `anaconda prompt (anaconda3)` by pressing the Windows button and searching `anaconda prompt` and run the command: `conda install -c conda-forge -c plotly --file requirements.txt -y` from the anaconda prompt to install all modules required during this bootcamp. If you get the error 'CondaHTTPError: HTTP 000 CONNECTION FAILED ...' then you may need to use a network without a firewall or set a proxy.
 5. Open the `anaconda navigator (anaconda3)` by pressing the Windows button and searching `anaconda navigator`. Launch a jupyter notebook session. This should load a UI in your default browser. On the left panel navigate to the `PythonBootcamp` directory and open the file `Bootcamp.ipynb`. You could also open the `anaconda prompt (anaconda3)`, navigate to the `PythonBootcamp` directory and type `jupyter notebook` in the command prompt.
 
 ## Bootcamp aims:
