@@ -1,7 +1,7 @@
 # Setting up your computer
 If you aren’t already setup with Python and Jupyter Notebook or JupyterLab please install either Anaconda or MiniConda. For ease, I would recommend installing Anaconda. Anaconda is a big application but is much more user-friendly - it is much bigger  because it installs almost every Python module you will ever need in addition to a nice User Interface. MiniConda is less user friendly but much lighter (basically installs Python and Conda for managing packages). With MiniConda you will likely need to import additional modules as you go. Although less user friendly, using MiniConda gives a user more control and is more suited to developers. Instructions for installing Anaconda and MiniConda are below.
 
-First, download the **data and notebook** by cloning this repo or downloading a zip of the repo (top right).
+First, download the **data and notebook** by cloning this repo or downloading a zip of the repo (top right). Once unzipped rename the folder to `PythonBootcamp` for simplicity.
 
 Next install either ***MiniConda or Anaconda*** (if required):
 
